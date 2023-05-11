@@ -6,7 +6,6 @@ ps4.jpg
 common/functions.js
 common/exploit.js
 jb/jb.js
-jb/oldjb.js
 payloads/mirahen.js
 payloads/goldhen.js
 payloads/miraunofficial.js

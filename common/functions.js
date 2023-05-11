@@ -75,15 +75,6 @@ function load_JB()
 	}
 }
 
-function load_OLDJB()
-{	var spoofed=navigator.userAgent.indexOf("6.72")>=0 ? false : true;
-	if (!spoofed){
-		oldexploit();	
-	}else{
-		setTimeout(function(){document.getElementById("progress").innerHTML="PS4 Jailbreak 6.72 HEN Loaded Already ✔"; }, 500);
-	}
-}
-
 function load_Both()
 {	var spoofed=navigator.userAgent.indexOf("6.72")>=0 ? false : true;
 	if (!spoofed){
@@ -97,12 +88,6 @@ function exploit(val){
 	document.getElementById("progress").innerHTML="Running Jailbreak Exploit!!";
 	localStorage.Fail++;
 	setTimeout(function(){jb(val);}, 500);
-}
-
-function oldexploit(){
-	document.getElementById("progress").innerHTML="Running Jailbreak Exploit!!";
-	localStorage.Fail++;
-	setTimeout(function(){oldjb();}, 500);
 }
 
 function load_payload(payload)
