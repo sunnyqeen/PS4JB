@@ -8,7 +8,6 @@ common/exploit.js
 jb/jb.js
 payloads/mirahen.js
 payloads/goldhen.js
-payloads/miraunofficial.js
 payloads/preloader.js
 payloads/loader.js
 payloads/app2usb.js
